@@ -10,18 +10,17 @@ const App: preact.FunctionComponent<{ name: string }> = ({ name }) => {
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        Hi, {name}
-        <a
-          className="App-link"
-          href="https://preactjs.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
+        <p>Welcome to Snowpack + Preact + TypeScript starter!</p>
+        <div className="content">
+          <pre>
+            <code>$ yarn install</code>
+            <br />
+            <code>$ yarn start</code>
+          </pre>
+        </div>
       </header>
     </div>
   );
-}
+};
 
 export default App;
