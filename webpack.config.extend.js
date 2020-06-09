@@ -4,6 +4,10 @@
  */
 module.exports = (config) => ({
   ...config,
+  output: {
+    ...config.output,
+    publicPath: 'https://jackyef.github.io/snowpack-preact-typescript/',
+  },
   /**
    * Add custom webpack configurations here
    */
