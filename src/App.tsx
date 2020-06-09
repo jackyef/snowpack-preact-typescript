@@ -2,7 +2,9 @@ import { h } from 'preact';
 import logo from './logo.png';
 import './App.css';
 
-const App: preact.FunctionComponent<{ name: string }> = ({ name }) => {
+const App: preact.FunctionComponent<{ name: string }> = ({ name = '' }) => {
+  console.log('Welcome,', name);
+
   return (
     <div className="App">
       <header className="App-header">
