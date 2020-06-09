@@ -8,6 +8,8 @@ Modern web development starter.
 - **Preact**, smaller runtime while still having access to most of React ecosystem if you choose to
 - **TypeScript**, never hurt anyone
 - **Jest**, for running your tests
+- **Webpack**, for bundling production builds
+- **ESLint**, for linting your codes
 
 ## Getting started
 1. Install dependencies
